@@ -7,7 +7,7 @@ Qlik Sense Enterprise on Kubernetes supports - besides a Open ID Connect-complia
  - Using a simple NodeJS app (in this folder) locally 
  - Using the simple NodeJS in Kubernetes (pulled from Docker hub) 
  
-My minimalistic NodeJS app creates a signed JWT token with just a few necessary parameters that you have to provide. So it is simple to use. However, you can create working JWT tokens also using https://jwt.io but you will have to make sure, all parameters are present and correct, so more complicated to use.
+My minimalistic NodeJS app creates a signed JWT token with just a few necessary parameters that you have to provide. So it is simple to use. However, you can create working JWT tokens also using https://jwt.io but you will have to make sure, all parameters are present and correct.
 
 ## Create public and private SSH key pair
 If you want to skip this step for a quick test, you may use the attached priv.key and pub.key although this compromises your security (I know the key to your installation then!). Any SSH key pair would work. To create a new one (under Linux) execute these commands
