@@ -28,4 +28,4 @@ This is an alternative way to create a JWT token, but you have to copy/paste qui
  
  <img src="jwtio.png"/>
  
-Now you can use the token to impersonate. <a href="https://github.com/ChristofSchwarz/qseok_jwt_tokens/blob/master/readme/using_token.md">Check out</a> how to use it.
+Now you can use the token to impersonate. <a href="using_token.md">Check out</a> how to use it.
