@@ -2,6 +2,8 @@
 
 **Note: This way to access QSEoK with a token can change or disappear in future. This is experimental**
 
+Here is a <a href="https://www.youtube.com/watch?v=CfU5t2rjfTo" target="_target">Youtube Video</a> about this ...
+
 Qlik Sense Enterprise on Kubernetes supports - besides a Open ID Connect-compliant Identity Provider - the authorization as a user using Bearer Authentication. It allows you to **impersonate as the user you want** and to automate API calls that otherwise are not possible. Handle with caution. Below I'll explain the setup you need in the helm deployment (modify qliksense.yaml) and 3 ways to create the JWT token: 
  - Using JWT.IO
  - Using a simple NodeJS app (in this folder) locally 
