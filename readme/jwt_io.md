@@ -26,6 +26,6 @@ This is an alternative way to create a JWT token, but you have to copy/paste qui
  - Paste the content of your pub.key into the first field of "VERIFY SIGNATURE"
  - Paste the content of your priv.key into the second field of "VERIFY SIGNATURE"
  
- <img src="https://raw.githubusercontent.com/ChristofSchwarz/qseok_jwt_tokens/master/readme/jwtio.png"/>
+ <img src="jwtio.png"/>
  
 Now you can use the token to impersonate. <a href="https://github.com/ChristofSchwarz/qseok_jwt_tokens/blob/master/readme/using_token.md">Check out</a> how to use it.
