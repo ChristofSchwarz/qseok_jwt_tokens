@@ -17,6 +17,8 @@ openssl rsa -in priv.key -pubout -out pub.key
 ```
 Now you have two files, priv.key and pub.key 
 
+ * Alternatively, you can create a SSH key pair online for example at https://travistidwell.com/jsencrypt/demo/
+
 ## Configure QSEoK Identity provider
 Edit the .yaml file which you last used to install or upgrade your Qlik Sense Enterprise on Kubernetes with helm. If you are not certain what the last helm configuration was, use the following command to dump the current settings into a new file qliksense.yaml: (qlik in below example is the name of the deployment, yours could be different maybe qliksense or qseok?)
 ```
