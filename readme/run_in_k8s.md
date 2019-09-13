@@ -1,7 +1,7 @@
 
 ## Run in Kubernetes
 Prerequisites:
- - You already edited the "identity-provider" configuration and applied it with "helm upgrade" as described in the main <a href="https://github.com/ChristofSchwarz/qs_on_Kubernetes/blob/master/jwtcreate/readme.md">readme</a>
+ - You already edited the "identity-provider" configuration and applied it with "helm upgrade" as described in the main <a href="../readme.md">readme</a>
  - You have kubectl access to your Kubernetes cluster using kubectl since we have to setup a secret, a pod, and a service
 
 
@@ -61,5 +61,5 @@ kubectl delete secret qlikcustom-jwtkey
 ```
 You can also execute the file remove-all-getjwt-objects.bat (if your console is in Windows) or remove-all-getjwt-objects.sh (if your console is Linux) to execute all 4 delete-commands at once. 
 
-Finally, learn how to <a href="https://github.com/ChristofSchwarz/qs_on_Kubernetes/blob/master/jwtcreate/readme/webservice.md">use this webservice</a>
+Finally, learn how to <a href="readme/webservice.md">use this webservice</a>
 
