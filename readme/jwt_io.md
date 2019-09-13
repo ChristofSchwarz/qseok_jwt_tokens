@@ -1,4 +1,4 @@
-## Using JWT.IO
+## Using jwt.io only
 This is an alternative way to create a JWT token, but you have to copy/paste quite some information for each token.
  - Follow this link to <a href="https://jwt.io/#debugger-io?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im15LWtleS1pZGVudGlmaWVyIn0.eyJpc3MiOiJodHRwczovL3FsaWsuYXBpLmludGVybmFsIiwiYXVkIjoicWxpay5hcGkiLCJzdWIiOiJhbm90aGVyQGdteC5ub3QiLCJncm91cHMiOlsiRXZlcnlvbmUiLCJPdGhlckdyb3VwIl0sIm5hbWUiOiJBbm90aGVyIiwiZXhwIjoxODAwMDAwMDAwfQ" target="_blank">jwt.io</a> which should fill in already the HEADER and the PAYLOAD for you. If not, this is what you have to enter: 
  
