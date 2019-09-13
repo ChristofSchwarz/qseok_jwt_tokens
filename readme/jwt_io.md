@@ -11,19 +11,19 @@ This is an alternative way to create a JWT token, but you have to copy/paste qui
      }
      ```
    * Paste this into the "PAYLOAD DATA" field 
-```
-{
-  "iss": "https://qlik.api.internal",
-  "aud": "qlik.api",
-  "sub": "user@company.com",
-  "groups": [
-    "Everyone",
-    "OtherGroup"
-  ],
-  "name": "FirstName LastName",
-  "exp": 1800000000
-} 
-```
+     ```
+     {
+       "iss": "https://qlik.api.internal",
+       "aud": "qlik.api",
+       "sub": "user@company.com",
+       "groups": [
+         "Everyone",
+         "OtherGroup"
+       ],
+       "name": "FirstName LastName",
+       "exp": 1800000000
+     } 
+     ```
  - **Adjust the settings** for sub, groups, name, exp accordingly
  - Paste the content of your priv.key into the last field field on the form (section "VERIFY SIGNATURE")
  - (you don't need the paste public key)
