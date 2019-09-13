@@ -10,7 +10,7 @@ This is an alternative way to create a JWT token, but you have to copy/paste qui
   "kid": "my-key-identifier"
 }
 ```
- - Paste this into the "PAYLOAD DATA" field and then adjust the settings for sub, groups, name, exp accordingly
+   * Paste this into the "PAYLOAD DATA" field 
 ```
 {
   "iss": "https://qlik.api.internal",
@@ -24,8 +24,9 @@ This is an alternative way to create a JWT token, but you have to copy/paste qui
   "exp": 1800000000
 } 
 ```
- - Paste the content of your priv.key into the second field (the one on the bottom) of "VERIFY SIGNATURE"
- - (you dont need the public key to sign the token)
+ - **Adjust the settings** for sub, groups, name, exp accordingly
+ - Paste the content of your priv.key into the last field field on the form (section "VERIFY SIGNATURE")
+ - (you don't need the paste public key)
  
  <img src="jwtio.png"/>
  
