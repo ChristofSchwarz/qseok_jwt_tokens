@@ -14,4 +14,4 @@ curl --request GET --url https://<your cluster url>/api/v1/users/me --header 'Au
 ```
 ### Postman
 
-<img src="https://raw.githubusercontent.com/ChristofSchwarz/qs_on_Kubernetes/master/jwtcreate/readme/postman.png"/>
+<img src="https://raw.githubusercontent.com/ChristofSchwarz/qseok_jwt_tokens/master/postman.png"/>
