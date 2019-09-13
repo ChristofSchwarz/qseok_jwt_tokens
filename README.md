@@ -65,8 +65,8 @@ helm upgrade --install qlik qlik-stable/qliksense -f qliksense.yaml
 ```
 Next you can choose how to create JWT tokens
  - Using <a href="readme/jwt_io.md">jwt.io to create the tokens</a> (no further config needed but lots of copy/paste before you get the key)
- - run <a href="https://github.com/ChristofSchwarz/qs_on_Kubernetes/blob/master/jwtcreate/readme/local_nodejs.md">my NodeJS app locally</a> (outside the Cluster)
- - run <a href="https://github.com/ChristofSchwarz/qs_on_Kubernetes/blob/master/jwtcreate/readme/run_in_k8s.md">my app within Kubernetes cluster</a> 
+ - run <a href="readme/local_nodejs.md">my NodeJS app locally</a> (outside the Cluster)
+ - run <a href="readme/run_in_k8s.md">my app within Kubernetes cluster</a> 
  
 Choose your way. 
 
