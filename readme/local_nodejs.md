@@ -11,4 +11,4 @@ node app.js
 ```
 A local web service will start. You can use curl or a web browser and navigate to http://localhost:31974/token?... 
 
-Finally, learn how to <a href="https://github.com/ChristofSchwarz/qs_on_Kubernetes/blob/master/jwtcreate/readme/webservice.md">use this webservice</a>
+Finally, learn how to <a href="webservice.md">use this webservice</a>
