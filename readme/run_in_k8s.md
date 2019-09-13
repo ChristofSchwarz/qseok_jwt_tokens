@@ -1,7 +1,7 @@
 
 ## Run in Kubernetes
 Prerequisites:
- - You already edited the "identity-provider" configuration and applied it with "helm upgrade" as described in the main <a href="../readme.md">readme</a>
+ - You already edited the "identity-provider" configuration and applied it with "helm upgrade" as described in the main <a href="../README.md">readme</a>
  - You have kubectl access to your Kubernetes cluster using kubectl since we have to setup a secret, a pod, and a service
 
 
