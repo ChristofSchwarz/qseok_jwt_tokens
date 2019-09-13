@@ -9,7 +9,7 @@ This is an alternative way to create a JWT token, but you have to copy/paste qui
   "kid": "my-key-identifier"
 }
 ```
- - Paste this into the "PAYLOAD DATA" field:
+ - Paste this into the "PAYLOAD DATA" field and then adjust the settings for sub, groups, name, exp accordingly
 ```
 {
   "iss": "https://qlik.api.internal",
