@@ -1,6 +1,7 @@
 ## Using JWT.IO
 This is an alternative way to create a JWT token, but you have to copy/paste quite some information for each token.
- - Go to https://jwt.io
+ - Follow this link to <a href="https://jwt.io/#debugger-io?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im15LWtleS1pZGVudGlmaWVyIn0.eyJpc3MiOiJodHRwczovL3FsaWsuYXBpLmludGVybmFsIiwiYXVkIjoicWxpay5hcGkiLCJzdWIiOiJhbm90aGVyQGdteC5ub3QiLCJncm91cHMiOlsiRXZlcnlvbmUiLCJPdGhlckdyb3VwIl0sIm5hbWUiOiJBbm90aGVyIiwiZXhwIjoxODAwMDAwMDAwfQ.Dlq64i2lm5cO7P8wn1h1JPruyVDux_ex4VGI5uBXhIAQEIsRb8ffGxds3Y8Krluvdo2hxFjmlm9wHtANgyV7mtf8UJiEQd9so7yNdYE7PejDSENddjXj7HZFqM5hp0ScWjgddrvkihZpmqriExCS2331i1LZVsCXpv85HMWzXFo">jwt.io</a> which should fill in already the HEADER and the PAYLOAD for you. If not, this is what you have to enter: 
+ 
  - Paste this into the "HEADER" field: (make sure "kid" matches the kid setting in your helm qliksense .yaml)
 ```
 {
@@ -23,8 +24,8 @@ This is an alternative way to create a JWT token, but you have to copy/paste qui
   "exp": 1800000000
 } 
 ```
- - Paste the content of your pub.key into the first field of "VERIFY SIGNATURE"
- - Paste the content of your priv.key into the second field of "VERIFY SIGNATURE"
+ - Paste the content of your priv.key into the second field (the one on the bottom) of "VERIFY SIGNATURE"
+ - (you dont need the public key to sign the token)
  
  <img src="jwtio.png"/>
  
