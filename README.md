@@ -2,14 +2,14 @@
 
 **Note: This way to access QSEoK with a token can change or disappear in future. This is experimental**
 
-<img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo_monochrome_light.svg" width="110"/>&nbsp;Here is a <a href="https://www.youtube.com/watch?v=CfU5t2rjfTo" target="_target">Youtube Video</a> about this ...
+<img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo_monochrome_light.svg" width="110"/>&nbsp; Here is a <a href="https://www.youtube.com/watch?v=CfU5t2rjfTo" target="_blank">video</a> about this ...
 
 Qlik Sense Enterprise on Kubernetes supports - besides a Open ID Connect-compliant Identity Provider - the authorization as a user using Bearer Authentication. It allows you to **impersonate as the user you want** and to automate API calls that otherwise are not possible. Handle with caution. Below I'll explain the setup you need in the helm deployment (modify qliksense.yaml) and 3 ways to create the JWT token: 
  - Using jwt.io (simple and straight-forward)
  - Using a simple NodeJS app (in this folder) locally 
  - Using the simple NodeJS in Kubernetes (pulled from Docker hub) 
  
-My minimalistic NodeJS app creates a signed JWT token with just a few necessary parameters that you have to provide. So it is simple to use. However, you can create working JWT tokens also using https://jwt.io but you will have to make sure, all parameters are present and correct.
+My minimalistic NodeJS app creates a signed JWT token with just a few necessary parameters that you have to provide. So it is simple to use. However, you can create working JWT tokens also using <a href="https://jwt.io" target="_blank">jwt.io</a> but you will have to make sure, all parameters are present and correct.
 
 ## Create public and private SSH key pair
 If you want to skip this step for a quick test, you may use the attached priv.key and pub.key although this compromises your security (I know the key to your installation then!). Any SSH key pair would work. To create a new one (under Linux) execute these commands
