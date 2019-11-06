@@ -24,5 +24,5 @@ Rules:
 Run a GET request against https://<yourserver>/api/engine/openapi/rpc and you will get a long, long response explaining all 
 the available methods. You will need Websockets protocol to call them. See <a href="app.js">app.js</a> as an example.
   
-The authentication works with Bearer Token, which you have to configure in your qliksense.yaml's identity-provider section and create a signed token (see <a href="../..">main page</a> of this git)
+The authentication works with Bearer Token, which you have to configure in your qliksense.yaml's identity-provider section and create a signed token (see <a href="../../..">main page</a> of this git)
 
