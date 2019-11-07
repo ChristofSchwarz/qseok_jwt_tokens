@@ -26,3 +26,13 @@ the available methods. You will need Websockets protocol to call them. See <a hr
   
 The authentication works with Bearer Token, which you have to configure in your qliksense.yaml's identity-provider section and create a signed token (see <a href="../../..">main page</a> of this git)
 
+## Full application workflow
+
+In <a href="app.js">this example</a> I am showing a full workflow
+ * create a new app
+ * create a dataconnection in that app (REST connection)
+ * set loadscript
+ * execute loadscript
+ * save app
+ 
+ 
